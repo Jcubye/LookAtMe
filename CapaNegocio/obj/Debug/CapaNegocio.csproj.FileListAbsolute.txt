@@ -1,0 +1,6 @@
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaNegocio\obj\Debug\CapaNegocio.pdb

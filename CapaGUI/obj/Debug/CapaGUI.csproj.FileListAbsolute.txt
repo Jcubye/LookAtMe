@@ -1,0 +1,11 @@
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.csprojAssemblyReference.cache
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\bin\Debug\CapaGUI.exe.config
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\bin\Debug\CapaGUI.exe
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\bin\Debug\CapaGUI.pdb
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.Properties.Resources.resources
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.csproj.GenerateResource.cache
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.csproj.CoreCompileInputs.cache
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.exe
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.pdb
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantallaHome.resources
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroRRHH.resources

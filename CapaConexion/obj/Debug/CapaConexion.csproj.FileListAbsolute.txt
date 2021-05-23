@@ -1,0 +1,6 @@
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaConexion\bin\Debug\CapaConexion.dll
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaConexion\bin\Debug\CapaConexion.pdb
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaConexion\obj\Debug\CapaConexion.csprojAssemblyReference.cache
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaConexion\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaConexion\obj\Debug\CapaConexion.pdb
