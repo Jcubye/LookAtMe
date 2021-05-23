@@ -1,18 +1,18 @@
+--Corregir el drop table segun las FK
+--DROP TABLE equipo_medico;
+--DROP TABLE epicrisis;
+--DROP TABLE esp_rrhh;
+--DROP TABLE especialidad;
+--DROP TABLE rrhh;
+--DROP TABLE cargo;
+--DROP TABLE departamento;
 --DROP TABLE tutor;
 --DROP TABLE paciente;
---DROP TABLE vodeollamada;
+--DROP TABLE videollamada;
 --DROP TABLE ubicacion;
 --DROP TABLE articulo;
 --DROP TABLE hospitalizacion;
 --DROP TABLE stock;
---DROP TABLE epicrisis;
---DROP TABLE departamento;
---DROP TABLE cargo;
---DROP TABLE rrhh;
---DROP TABLE especialidad;
---DROP TABLE esp_rhh;
---DROP TABLE equipo_medico;
-
 
 CREATE TABLE articulo (
     id            INTEGER NOT NULL PRIMARY KEY,
@@ -113,7 +113,15 @@ CREATE TABLE rrhh
 (
     id      INTEGER NOT NULL,
     rut     VARCHAR(20),
-    clave   VARCHAR(20) NOT NULL ) 
+    clave   VARCHAR(20) NOT NULL,
+    estado  VARCHAR(20) NOT NULL,
+    nombre  VARCHAR(20) NOT NULL,
+    apellido VARCHAR(20) NOT NULL,
+    fecha_nac DATE NOT NULL,
+    telefono  VARCHAR(20) NOT NULL,
+    correo    VARCHAR(20) NOT NULL,
+    cargo_id  INTEGER     NOT NULL,
+    ) 
 ;
 
 ALTER TABLE rrhh ADD CONSTRAINT rrhh_pk PRIMARY KEY ( id );
@@ -194,9 +202,9 @@ ALTER TABLE paciente
     ADD CONSTRAINT paciente_tutor_fk FOREIGN KEY ( tutor_id )
         REFERENCES tutor ( id );
 
---ALTER TABLE rrhh
---    ADD CONSTRAINT rrhh_cargo_fk FOREIGN KEY ( cargo_id )
---        REFERENCES cargo ( id );
+ALTER TABLE rrhh
+  ADD CONSTRAINT rrhh_cargo_fk FOREIGN KEY ( cargo_id )
+        REFERENCES cargo ( id );
 
 ALTER TABLE stock
     ADD CONSTRAINT stock_articulo_fk FOREIGN KEY ( articulo_id )
@@ -209,8 +217,6 @@ ALTER TABLE stock
 ALTER TABLE videollamada
     ADD CONSTRAINT videollamada_paciente_fk FOREIGN KEY ( paciente_id )
         REFERENCES paciente ( id );
-
-CREATE SEQUENCE articulo_id_seq START WITH 1 ;
 
 --CREATE OR REPLACE TRIGGER articulo_id_trg BEFORE
 --    INSERT ON articulo
