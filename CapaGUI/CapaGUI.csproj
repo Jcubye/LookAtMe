@@ -52,6 +52,12 @@
     <Compile Include="PantallaHome.Designer.cs">
       <DependentUpon>PantallaHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="PantallaRegistroPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistroPaciente.Designer.cs">
+      <DependentUpon>PantallaRegistroPaciente.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaRegistroRRHH.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PantallaHome.resx">
       <DependentUpon>PantallaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistroPaciente.resx">
+      <DependentUpon>PantallaRegistroPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistroRRHH.resx">
       <DependentUpon>PantallaRegistroRRHH.cs</DependentUpon>

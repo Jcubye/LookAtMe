@@ -10,32 +10,17 @@ using System.Windows.Forms;
 
 namespace CapaGUI
 {
-    public partial class PantallaRegistroRRHH : Form
+    public partial class PantallaRegistroPaciente : Form
     {
-        public PantallaRegistroRRHH()
+        public PantallaRegistroPaciente()
         {
             InitializeComponent();
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Dispose();
             System.GC.Collect();
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

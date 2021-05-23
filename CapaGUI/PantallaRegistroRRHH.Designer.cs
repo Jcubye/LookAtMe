@@ -40,7 +40,6 @@ namespace CapaGUI
             this.label5 = new System.Windows.Forms.Label();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtFechaNac = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -50,6 +49,9 @@ namespace CapaGUI
             this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -142,13 +144,6 @@ namespace CapaGUI
             this.label6.TabIndex = 11;
             this.label6.Text = "Apellido:";
             // 
-            // txtFechaNac
-            // 
-            this.txtFechaNac.Location = new System.Drawing.Point(388, 244);
-            this.txtFechaNac.Name = "txtFechaNac";
-            this.txtFechaNac.Size = new System.Drawing.Size(100, 20);
-            this.txtFechaNac.TabIndex = 14;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -210,7 +205,7 @@ namespace CapaGUI
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(307, 339);
+            this.button1.Location = new System.Drawing.Point(307, 356);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 21;
@@ -219,7 +214,7 @@ namespace CapaGUI
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(388, 339);
+            this.button2.Location = new System.Drawing.Point(388, 356);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 22;
@@ -227,11 +222,39 @@ namespace CapaGUI
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(271, 322);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(38, 13);
+            this.label11.TabIndex = 23;
+            this.label11.Text = "Cargo:";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(388, 322);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(100, 21);
+            this.comboBox1.TabIndex = 24;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(388, 245);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(191, 20);
+            this.dateTimePicker1.TabIndex = 25;
+            // 
             // PantallaRegistroRRHH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtClave2);
@@ -240,7 +263,6 @@ namespace CapaGUI
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtFechaNac);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.label6);
@@ -273,7 +295,6 @@ namespace CapaGUI
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtFechaNac;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label label8;
@@ -283,5 +304,8 @@ namespace CapaGUI
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
