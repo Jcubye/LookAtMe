@@ -9,3 +9,5 @@ C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Pro
 C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.pdb
 C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantallaHome.resources
 C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroRRHH.resources
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroPaciente.resources
+C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantallaHomePersonal.resources

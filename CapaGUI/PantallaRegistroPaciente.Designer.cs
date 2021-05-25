@@ -318,7 +318,7 @@ namespace CapaGUI
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "PantallaRegistroPaciente";
-            this.Text = "PantallaRegistroPaciente";
+            this.Text = "Registro de Paciente";
             this.ResumeLayout(false);
             this.PerformLayout();
 

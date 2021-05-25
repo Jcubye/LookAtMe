@@ -15,15 +15,16 @@
 --DROP TABLE stock;
 
 CREATE TABLE articulo (
-    id            INTEGER NOT NULL PRIMARY KEY,
+    id            INTEGER NOT NULL IDENTITY(1,1),
     producto      VARCHAR(50),
     cantidad      INTEGER,
     descripcion   VARCHAR(200)
 );
 
+ALTER TABLE articulo ADD CONSTRAINT articulo_pk PRIMARY KEY ( id );
 
 CREATE TABLE cargo (
-    id                INTEGER NOT NULL,
+    id                INTEGER NOT NULL IDENTITY(1,1),
     nombre            VARCHAR(50),
     fecha_inicio      DATE,
     descripcion       VARCHAR(200),
@@ -34,14 +35,14 @@ CREATE TABLE cargo (
 ALTER TABLE cargo ADD CONSTRAINT cargo_pk PRIMARY KEY ( id );
 
 CREATE TABLE departamento (
-    id       INTEGER NOT NULL,
+    id       INTEGER NOT NULL IDENTITY(1,1),
     nombre   VARCHAR(50)
 );
 
 ALTER TABLE departamento ADD CONSTRAINT departamento_pk PRIMARY KEY ( id );
 
 CREATE TABLE epicrisis (
-    id            INTEGER NOT NULL,
+    id            INTEGER NOT NULL IDENTITY(1,1),
     fecha         DATE,
     detalle       VARCHAR(500),
     diagnostico   VARCHAR(500),
@@ -51,7 +52,7 @@ CREATE TABLE epicrisis (
 ALTER TABLE epicrisis ADD CONSTRAINT epicrisis_pk PRIMARY KEY ( id );
 
 CREATE TABLE equipo_medico (
-    id                   INTEGER NOT NULL,
+    id                   INTEGER NOT NULL IDENTITY(1,1),
     responsable          VARCHAR(50),
     fecha_conformacion   DATE,
     cantidad_personal    INTEGER,
@@ -64,7 +65,7 @@ CREATE TABLE equipo_medico (
 ALTER TABLE equipo_medico ADD CONSTRAINT equipo_medico_pk PRIMARY KEY ( id );
 
 CREATE TABLE esp_rrhh (
-    id                INTEGER NOT NULL,
+    id                INTEGER NOT NULL IDENTITY(1,1),
     rrhh_id           INTEGER NOT NULL,
     especialidad_id   INTEGER NOT NULL
 );
@@ -72,14 +73,14 @@ CREATE TABLE esp_rrhh (
 ALTER TABLE esp_rrhh ADD CONSTRAINT esp_rrhh_pk PRIMARY KEY ( id );
 
 CREATE TABLE especialidad (
-    id       INTEGER NOT NULL,
+    id       INTEGER NOT NULL IDENTITY(1,1),
     nombre   NVARCHAR(50)
 );
 
 ALTER TABLE especialidad ADD CONSTRAINT especialidad_pk PRIMARY KEY ( id );
 
 CREATE TABLE hospitalizacion (
-    id              INTEGER NOT NULL,
+    id              INTEGER NOT NULL IDENTITY(1,1) ,
     fecha_ingreso   DATE,
     estado          VARCHAR(20),
     fecha_alta      DATE,
@@ -92,7 +93,7 @@ CREATE TABLE hospitalizacion (
 ALTER TABLE hospitalizacion ADD CONSTRAINT hospitalizacion_pk PRIMARY KEY ( id );
 
 CREATE TABLE paciente (
-    id                 INTEGER NOT NULL,
+    id                 INTEGER NOT NULL IDENTITY(1,1),
     rut                VARCHAR(20),
     nombre             VARCHAR(20),
     apellido           VARCHAR(20),
@@ -111,7 +112,7 @@ ALTER TABLE paciente ADD CONSTRAINT paciente_pk PRIMARY KEY ( id );
 CREATE TABLE rrhh
 
 (
-    id      INTEGER NOT NULL,
+    id      INTEGER NOT NULL IDENTITY(1,1),
     rut     VARCHAR(20),
     clave   VARCHAR(20) NOT NULL,
     estado  VARCHAR(20) NOT NULL,
@@ -119,7 +120,7 @@ CREATE TABLE rrhh
     apellido VARCHAR(20) NOT NULL,
     fecha_nac DATE NOT NULL,
     telefono  VARCHAR(20) NOT NULL,
-    correo    VARCHAR(20) NOT NULL,
+    correo    VARCHAR(50) NOT NULL,
     cargo_id  INTEGER     NOT NULL,
     ) 
 ;
@@ -127,7 +128,7 @@ CREATE TABLE rrhh
 ALTER TABLE rrhh ADD CONSTRAINT rrhh_pk PRIMARY KEY ( id );
 
 CREATE TABLE stock (
-    id                   INTEGER NOT NULL,
+    id                   INTEGER NOT NULL IDENTITY(1,1),
     hospitalizacion_id   INTEGER NOT NULL,
     articulo_id          INTEGER NOT NULL
 );
@@ -135,7 +136,7 @@ CREATE TABLE stock (
 ALTER TABLE stock ADD CONSTRAINT almacen_pk PRIMARY KEY ( id );
 
 CREATE TABLE tutor (
-    id         INTEGER NOT NULL,
+    id         INTEGER NOT NULL IDENTITY(1,1),
     rut        VARCHAR(20),
     nombre     VARCHAR(20),
     apellido   VARCHAR(20),
@@ -147,7 +148,7 @@ CREATE TABLE tutor (
 ALTER TABLE tutor ADD CONSTRAINT tutor_pk PRIMARY KEY ( id );
 
 CREATE TABLE ubicacion (
-    id         INTEGER NOT NULL,
+    id         INTEGER NOT NULL IDENTITY(1,1),
     sala       INTEGER,
     cama       INTEGER,
     area       VARCHAR(50),
@@ -157,7 +158,7 @@ CREATE TABLE ubicacion (
 ALTER TABLE ubicacion ADD CONSTRAINT ubicacion_pk PRIMARY KEY ( id );
 
 CREATE TABLE videollamada (
-    id               INTEGER NOT NULL,
+    id               INTEGER NOT NULL IDENTITY(1,1),
     disponibilidad   VARCHAR(20),
     fecha            DATE,
     descripcion      VARCHAR(200),
@@ -218,6 +219,8 @@ ALTER TABLE videollamada
     ADD CONSTRAINT videollamada_paciente_fk FOREIGN KEY ( paciente_id )
         REFERENCES paciente ( id );
 
+
+
 --CREATE OR REPLACE TRIGGER articulo_id_trg BEFORE
 --    INSERT ON articulo
 --    FOR EACH ROW
@@ -227,7 +230,7 @@ ALTER TABLE videollamada
 --END;
 --/
 
-CREATE SEQUENCE cargo_id_seq START WITH 1;
+--CREATE SEQUENCE cargo_id_seq START WITH 1;
 
 --CREATE OR REPLACE TRIGGER cargo_id_trg BEFORE
 --    INSERT ON cargo
@@ -238,7 +241,7 @@ CREATE SEQUENCE cargo_id_seq START WITH 1;
 --END;
 --/
 
-CREATE SEQUENCE departamento_id_seq START WITH 1;
+--CREATE SEQUENCE departamento_id_seq START WITH 1;
 
 --CREATE OR ALTER TRIGGER departamento_id_trg BEFORE
 --    INSERT ON departamento
@@ -249,7 +252,7 @@ CREATE SEQUENCE departamento_id_seq START WITH 1;
 --END;
 --/
 
-CREATE SEQUENCE epicrisis_id_seq START WITH 1;
+--CREATE SEQUENCE epicrisis_id_seq START WITH 1;
 
 --CREATE OR REPLACE TRIGGER epicrisis_id_trg BEFORE
 --    INSERT ON epicrisis
@@ -260,7 +263,7 @@ CREATE SEQUENCE epicrisis_id_seq START WITH 1;
 --END;
 --/
 
-CREATE SEQUENCE equipo_medico_id_seq START WITH 1 ;
+--CREATE SEQUENCE equipo_medico_id_seq START WITH 1 ;
 
 --CREATE OR REPLACE TRIGGER equipo_medico_id_trg BEFORE
 --    INSERT ON equipo_medico
@@ -271,7 +274,7 @@ CREATE SEQUENCE equipo_medico_id_seq START WITH 1 ;
 --END;
 --/
 
-CREATE SEQUENCE esp_rrhh_id_seq START WITH 1 ;
+--CREATE SEQUENCE esp_rrhh_id_seq START WITH 1 ;
 
 --CREATE OR REPLACE TRIGGER esp_rrhh_id_trg BEFORE
 --    INSERT ON esp_rrhh
@@ -282,7 +285,7 @@ CREATE SEQUENCE esp_rrhh_id_seq START WITH 1 ;
 --END;
 --/
 
-CREATE SEQUENCE especialidad_id_seq START WITH 1;
+--CREATE SEQUENCE especialidad_id_seq START WITH 1;
 
 --CREATE OR REPLACE TRIGGER especialidad_id_trg BEFORE
 --    INSERT ON especialidad
@@ -293,7 +296,7 @@ CREATE SEQUENCE especialidad_id_seq START WITH 1;
 --END;
 --/
 
-CREATE SEQUENCE hospitalizacion_id_seq START WITH 1 ;
+--CREATE SEQUENCE hospitalizacion_id_seq START WITH 1 ;
 
 --CREATE OR REPLACE TRIGGER hospitalizacion_id_trg BEFORE
 --    INSERT ON hospitalizacion
@@ -304,7 +307,7 @@ CREATE SEQUENCE hospitalizacion_id_seq START WITH 1 ;
 --END;
 --/
 
-CREATE SEQUENCE paciente_id_seq START WITH 1 ;
+--CREATE SEQUENCE paciente_id_seq START WITH 1 ;
 
 --CREATE OR REPLACE TRIGGER paciente_id_trg BEFORE
 --    INSERT ON paciente
@@ -315,7 +318,7 @@ CREATE SEQUENCE paciente_id_seq START WITH 1 ;
 --END;
 --/
 
-CREATE SEQUENCE rrhh_id_seq START WITH 1 ;
+--CREATE SEQUENCE rrhh_id_seq START WITH 1 ;
 
 --CREATE OR REPLACE TRIGGER rrhh_id_trg BEFORE
 --    INSERT ON rrhh
@@ -326,7 +329,7 @@ CREATE SEQUENCE rrhh_id_seq START WITH 1 ;
 --END;
 --/
 
-CREATE SEQUENCE tutor_id_seq START WITH 1;
+--CREATE SEQUENCE tutor_id_seq START WITH 1;
 
 --CREATE OR REPLACE TRIGGER tutor_id_trg BEFORE
 --    INSERT ON tutor
@@ -337,7 +340,7 @@ CREATE SEQUENCE tutor_id_seq START WITH 1;
 --END;
 --/
 
-CREATE SEQUENCE ubicacion_id_seq START WITH 1 ;
+--CREATE SEQUENCE ubicacion_id_seq START WITH 1 ;
 
 --CREATE OR REPLACE TRIGGER ubicacion_id_trg BEFORE
 --    INSERT ON ubicacion
@@ -348,7 +351,7 @@ CREATE SEQUENCE ubicacion_id_seq START WITH 1 ;
 --END;
 --/
 
-CREATE SEQUENCE videollamada_id_seq START WITH 1 ;
+--CREATE SEQUENCE videollamada_id_seq START WITH 1 ;
 
 --CREATE OR REPLACE TRIGGER videollamada_id_trg BEFORE
 --    INSERT ON videollamada

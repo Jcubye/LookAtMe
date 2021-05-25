@@ -24,6 +24,8 @@ namespace CapaGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            PantallaHomePersonal pHomePersonal = new PantallaHomePersonal();
+            pHomePersonal.ShowDialog();
         }
 
         private void label4_Click(object sender, EventArgs e)
