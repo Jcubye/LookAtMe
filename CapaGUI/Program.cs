@@ -16,7 +16,9 @@ namespace CapaGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PantallaHome ());
+            Application.Run(new PantallaHome());
         }
+
+
     }
 }
