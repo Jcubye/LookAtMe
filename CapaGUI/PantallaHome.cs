@@ -24,14 +24,20 @@ namespace CapaGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PantallaHomePersonal pHomePersonal = new PantallaHomePersonal();
-            pHomePersonal.ShowDialog();
+            PantallaLoginPersonal pLoginPersonal = new PantallaLoginPersonal();
+            pLoginPersonal.ShowDialog();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
             PantallaRegistroRRHH pRegistroRRHH = new PantallaRegistroRRHH();
             pRegistroRRHH.ShowDialog();
+        }
+
+        private void btnTutor_Click(object sender, EventArgs e)
+        {
+            PantallaLoginTutor pLoginTutor = new PantallaLoginTutor();
+            pLoginTutor.ShowDialog();
         }
     }
 }

@@ -63,5 +63,10 @@ namespace CapaGUI
             PantallaRegistroEquipoMedico pRegistroEquipoMedico = new PantallaRegistroEquipoMedico();
             pRegistroEquipoMedico.ShowDialog();
         }
+
+        private void resumenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

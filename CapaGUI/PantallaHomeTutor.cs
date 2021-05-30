@@ -24,7 +24,8 @@ namespace CapaGUI
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            this.Dispose();
+            System.GC.Collect();
         }
     }
 }

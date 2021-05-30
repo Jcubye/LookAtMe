@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PantallaLoginPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaLoginPersonal.Designer.cs">
+      <DependentUpon>PantallaLoginPersonal.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaCreacionEquipos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="PantallaHomeTutor.Designer.cs">
       <DependentUpon>PantallaHomeTutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaLoginTutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaLoginTutor.Designer.cs">
+      <DependentUpon>PantallaLoginTutor.cs</DependentUpon>
     </Compile>
     <Compile Include="PantallaRegistroCargos.cs">
       <SubType>Form</SubType>
@@ -112,6 +124,12 @@
     <Compile Include="PantallaRegistroTutor.Designer.cs">
       <DependentUpon>PantallaRegistroTutor.cs</DependentUpon>
     </Compile>
+    <Compile Include="PantllaLoginPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantllaLoginPersonal.Designer.cs">
+      <DependentUpon>PantllaLoginPersonal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PantallaHome.resx">
@@ -125,6 +143,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaHomeTutor.resx">
       <DependentUpon>PantallaHomeTutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaLoginPersonal.resx">
+      <DependentUpon>PantallaLoginPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaLoginTutor.resx">
+      <DependentUpon>PantallaLoginTutor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistroCargos.resx">
       <DependentUpon>PantallaRegistroCargos.cs</DependentUpon>
@@ -140,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistroTutor.resx">
       <DependentUpon>PantallaRegistroTutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantllaLoginPersonal.resx">
+      <DependentUpon>PantllaLoginPersonal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

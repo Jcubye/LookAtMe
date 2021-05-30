@@ -39,13 +39,13 @@ namespace CapaGUI
             this.cantidadDePacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cantidadDePersonalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cantidadDeEquiposMédicosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.departamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cargosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.equiposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cargosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.equiposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearEquipoMedicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +70,7 @@ namespace CapaGUI
             this.resumenToolStripMenuItem.Name = "resumenToolStripMenuItem";
             this.resumenToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.resumenToolStripMenuItem.Text = "Resumen";
+            this.resumenToolStripMenuItem.Click += new System.EventHandler(this.resumenToolStripMenuItem_Click);
             // 
             // registroPersonalToolStripMenuItem
             // 
@@ -131,13 +132,6 @@ namespace CapaGUI
             this.cantidadDeEquiposMédicosToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.cantidadDeEquiposMédicosToolStripMenuItem.Text = "Cantidad de Equipos Médicos";
             // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
             // departamentosToolStripMenuItem
             // 
             this.departamentosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -145,6 +139,13 @@ namespace CapaGUI
             this.departamentosToolStripMenuItem.Name = "departamentosToolStripMenuItem";
             this.departamentosToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
             this.departamentosToolStripMenuItem.Text = "Departamentos";
+            // 
+            // registroToolStripMenuItem1
+            // 
+            this.registroToolStripMenuItem1.Name = "registroToolStripMenuItem1";
+            this.registroToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
+            this.registroToolStripMenuItem1.Text = "Registro";
+            this.registroToolStripMenuItem1.Click += new System.EventHandler(this.registroToolStripMenuItem1_Click);
             // 
             // cargosToolStripMenuItem
             // 
@@ -154,6 +155,13 @@ namespace CapaGUI
             this.cargosToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.cargosToolStripMenuItem.Text = "Cargos";
             // 
+            // registroToolStripMenuItem2
+            // 
+            this.registroToolStripMenuItem2.Name = "registroToolStripMenuItem2";
+            this.registroToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.registroToolStripMenuItem2.Text = "Registro";
+            this.registroToolStripMenuItem2.Click += new System.EventHandler(this.registroToolStripMenuItem2_Click);
+            // 
             // equiposToolStripMenuItem
             // 
             this.equiposToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -162,26 +170,19 @@ namespace CapaGUI
             this.equiposToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.equiposToolStripMenuItem.Text = "Equipos";
             // 
-            // registroToolStripMenuItem1
-            // 
-            this.registroToolStripMenuItem1.Name = "registroToolStripMenuItem1";
-            this.registroToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.registroToolStripMenuItem1.Text = "Registro";
-            this.registroToolStripMenuItem1.Click += new System.EventHandler(this.registroToolStripMenuItem1_Click);
-            // 
-            // registroToolStripMenuItem2
-            // 
-            this.registroToolStripMenuItem2.Name = "registroToolStripMenuItem2";
-            this.registroToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.registroToolStripMenuItem2.Text = "Registro";
-            this.registroToolStripMenuItem2.Click += new System.EventHandler(this.registroToolStripMenuItem2_Click);
-            // 
             // crearEquipoMedicoToolStripMenuItem
             // 
             this.crearEquipoMedicoToolStripMenuItem.Name = "crearEquipoMedicoToolStripMenuItem";
             this.crearEquipoMedicoToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.crearEquipoMedicoToolStripMenuItem.Text = "Crear Equipo Medico";
             this.crearEquipoMedicoToolStripMenuItem.Click += new System.EventHandler(this.crearEquipoMedicoToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // PantallaHomeAdministrador
             // 

@@ -29,53 +29,47 @@ namespace CapaGUI
         /// </summary>
         private void InitializeComponent()
         {
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.datePickerNac = new System.Windows.Forms.DateTimePicker();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtDepartamento = new System.Windows.Forms.ComboBox();
+            this.txtEstado = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // dateTimePicker1
+            // datePickerNac
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(393, 119);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(191, 20);
-            this.dateTimePicker1.TabIndex = 48;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.datePickerNac.Location = new System.Drawing.Point(393, 119);
+            this.datePickerNac.Name = "datePickerNac";
+            this.datePickerNac.Size = new System.Drawing.Size(191, 20);
+            this.datePickerNac.TabIndex = 48;
+            this.datePickerNac.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // button2
+            // btnCancelar
             // 
-            this.button2.Location = new System.Drawing.Point(393, 357);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 45;
-            this.button2.Text = "Canelar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(418, 327);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 45;
+            this.btnCancelar.Text = "Canelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // button1
+            // btnRegistrar
             // 
-            this.button1.Location = new System.Drawing.Point(312, 357);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 44;
-            this.button1.Text = "Registrarse";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Location = new System.Drawing.Point(393, 250);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(100, 20);
-            this.txtTelefono.TabIndex = 39;
+            this.btnRegistrar.Location = new System.Drawing.Point(337, 327);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(75, 23);
+            this.btnRegistrar.TabIndex = 44;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -95,13 +89,13 @@ namespace CapaGUI
             this.label7.TabIndex = 37;
             this.label7.Text = "Fecha de Nacimiento:";
             // 
-            // txtApellido
+            // txtDescripcion
             // 
-            this.txtApellido.Location = new System.Drawing.Point(393, 150);
-            this.txtApellido.Multiline = true;
-            this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(191, 85);
-            this.txtApellido.TabIndex = 36;
+            this.txtDescripcion.Location = new System.Drawing.Point(393, 150);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(191, 85);
+            this.txtDescripcion.TabIndex = 36;
             // 
             // label6
             // 
@@ -143,32 +137,46 @@ namespace CapaGUI
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(276, 276);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.Size = new System.Drawing.Size(74, 13);
             this.label2.TabIndex = 49;
-            this.label2.Text = "Estado:";
+            this.label2.Text = "Departamento";
             // 
-            // comboBox1
+            // txtDepartamento
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(393, 276);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(191, 21);
-            this.comboBox1.TabIndex = 50;
+            this.txtDepartamento.FormattingEnabled = true;
+            this.txtDepartamento.Location = new System.Drawing.Point(393, 276);
+            this.txtDepartamento.Name = "txtDepartamento";
+            this.txtDepartamento.Size = new System.Drawing.Size(191, 21);
+            this.txtDepartamento.TabIndex = 50;
+            // 
+            // txtEstado
+            // 
+            this.txtEstado.DisplayMember = "asd";
+            this.txtEstado.FormattingEnabled = true;
+            this.txtEstado.Items.AddRange(new object[] {
+            "Activo",
+            "Inactivo",
+            "Eliminado"});
+            this.txtEstado.Location = new System.Drawing.Point(393, 247);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(121, 21);
+            this.txtEstado.TabIndex = 51;
+            this.txtEstado.Tag = "";
             // 
             // PantallaRegistroCargos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.txtEstado);
+            this.Controls.Add(this.txtDepartamento);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.datePickerNac);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txtApellido);
+            this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label5);
@@ -182,18 +190,18 @@ namespace CapaGUI
 
         #endregion
 
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.DateTimePicker datePickerNac;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox txtDepartamento;
+        private System.Windows.Forms.ComboBox txtEstado;
     }
 }

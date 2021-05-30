@@ -10,19 +10,20 @@ using System.Windows.Forms;
 
 namespace CapaGUI
 {
-    public partial class PantallaRegistroCargos : Form
+    public partial class PantallaLoginTutor : Form
     {
-        public PantallaRegistroCargos()
+        public PantallaLoginTutor()
         {
             InitializeComponent();
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void txtIngresar_Click(object sender, EventArgs e)
         {
-
+            PantallaHomeTutor pHomeTutor = new PantallaHomeTutor();
+            pHomeTutor.ShowDialog();
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        private void txtCancelar_Click(object sender, EventArgs e)
         {
             this.Dispose();
             System.GC.Collect();
