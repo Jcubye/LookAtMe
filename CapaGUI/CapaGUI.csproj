@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PantallaCreacionEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaCreacionEquipos.Designer.cs">
+      <DependentUpon>PantallaCreacionEquipos.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,30 @@
     <Compile Include="PantallaHomePersonal.Designer.cs">
       <DependentUpon>PantallaHomePersonal.cs</DependentUpon>
     </Compile>
+    <Compile Include="PantallaHomeTutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaHomeTutor.Designer.cs">
+      <DependentUpon>PantallaHomeTutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaRegistroCargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistroCargos.Designer.cs">
+      <DependentUpon>PantallaRegistroCargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaRegistroDepartamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistroDepartamentos.Designer.cs">
+      <DependentUpon>PantallaRegistroDepartamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaRegistroEquipoMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistroEquipoMedico.Designer.cs">
+      <DependentUpon>PantallaRegistroEquipoMedico.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaRegistroPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +106,12 @@
     <Compile Include="PantallaRegistroRRHH.Designer.cs">
       <DependentUpon>PantallaRegistroRRHH.cs</DependentUpon>
     </Compile>
+    <Compile Include="PantallaRegistroTutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaRegistroTutor.Designer.cs">
+      <DependentUpon>PantallaRegistroTutor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PantallaHome.resx">
@@ -87,11 +123,23 @@
     <EmbeddedResource Include="PantallaHomePersonal.resx">
       <DependentUpon>PantallaHomePersonal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PantallaHomeTutor.resx">
+      <DependentUpon>PantallaHomeTutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistroCargos.resx">
+      <DependentUpon>PantallaRegistroCargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistroDepartamentos.resx">
+      <DependentUpon>PantallaRegistroDepartamentos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistroPaciente.resx">
       <DependentUpon>PantallaRegistroPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistroRRHH.resx">
       <DependentUpon>PantallaRegistroRRHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistroTutor.resx">
+      <DependentUpon>PantallaRegistroTutor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

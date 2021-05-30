@@ -24,7 +24,44 @@ namespace CapaGUI
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Dispose();
+            System.GC.Collect();
+        }
+
+        private void registroPersonalToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            PantallaRegistroRRHH pRegistroRRHH = new PantallaRegistroRRHH();
+            pRegistroRRHH.ShowDialog();
+        }
+
+        private void registroPacientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PantallaRegistroPaciente pRegistroPaciente = new PantallaRegistroPaciente();
+            pRegistroPaciente.ShowDialog();
+        }
+
+        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PantallaRegistroTutor pRegistroTutor = new PantallaRegistroTutor();
+            pRegistroTutor.ShowDialog();
+        }
+
+        private void registroToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            PantallaRegistroDepartamentos pRegistroDepartamentos = new PantallaRegistroDepartamentos();
+            pRegistroDepartamentos.ShowDialog();
+        }
+
+        private void registroToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            PantallaRegistroCargos pRegistroCargos = new PantallaRegistroCargos();
+            pRegistroCargos.ShowDialog();
+        }
+
+        private void crearEquipoMedicoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PantallaRegistroEquipoMedico pRegistroEquipoMedico = new PantallaRegistroEquipoMedico();
+            pRegistroEquipoMedico.ShowDialog();
         }
     }
 }
