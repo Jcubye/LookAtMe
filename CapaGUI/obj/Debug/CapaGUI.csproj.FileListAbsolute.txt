@@ -19,3 +19,24 @@ C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Pro
 C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroDepartamentos.resources
 C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroTutor.resources
 C:\Users\Jcubye\Desktop\Semestre 5 Ing. en Informática Duoc\Integración de Proyecto\Proyecto\Look_at_me\CapaGUI\obj\Debug\CapaGUI.PantllaLoginPersonal.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\bin\Debug\CapaGUI.exe.config
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\bin\Debug\CapaGUI.exe
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\bin\Debug\CapaGUI.pdb
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.csproj.AssemblyReference.cache
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaHome.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaHomeAdministrador.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaHomePersonal.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaHomeTutor.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaLoginPersonal.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaLoginTutor.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroCargos.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroDepartamentos.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroPaciente.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroRRHH.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroTutor.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantllaLoginPersonal.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.Properties.Resources.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.csproj.GenerateResource.cache
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.csproj.CoreCompileInputs.cache
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.exe
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.pdb
