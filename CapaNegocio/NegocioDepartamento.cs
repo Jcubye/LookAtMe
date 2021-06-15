@@ -16,14 +16,15 @@ namespace CapaNegocio
 
         public void configurarConexion()
         {
+            ConexionSQLSERVER Conex = new ConexionSQLSERVER();
             this.Conex.NombreBaseDatos = "LookAtMe";
             this.Conex.CadenaConexion = "Data Source=LAPTOP-G7NSK0PF;Initial Catalog=LookAtMe;Integrated Security=True";
         }
 
-        public void insertarDepartamento(Departamento departamento)
+        public void agregarDepartamento(Departamento departamento)
         {
-            this.configurarConexion();
-            this.Conex.CadenaSQL = "INSERT INTO dbo.departamento (id,nombre) VALUES ('"+ departamento.Id +"' , '" + departamento.Nombre + "');";
+            configurarConexion();
+            this.Conex.CadenaSQL = "INSERT INTO dbo.departamento (id,nombre) VALUES (" + departamento.Id +" '"+ departamento.Nombre + "');";
             this.Conex.EsSelect = false;
             this.Conex.conectar();
         }

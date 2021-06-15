@@ -143,7 +143,7 @@ namespace CapaConexion
         //    connect.CadenaConexion = "Data Source=LAPTOP-G7NSK0PF;Initial Catalog=LookAtMe;Integrated Security=True";
 
         //    //Los campos id autoincrementados no necesitan ser declarados
-        //    connect.CadenaSQL = "INSERT INTO departamento (nombre) VALUES ('DPTOtest2') ";
+        //    connect.CadenaSQL = "INSERT INTO departamento (nombre) VALUES ('DPTOtest3') ";
         //    connect.EsSelect = false;
         //    connect.conectar();
 

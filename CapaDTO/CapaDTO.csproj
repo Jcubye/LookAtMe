@@ -57,5 +57,11 @@
     <Compile Include="Ubicacion.cs" />
     <Compile Include="Videollamada.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaConexion\CapaConexion.csproj">
+      <Project>{40102b05-1bf8-425a-adda-a8223da7fd48}</Project>
+      <Name>CapaConexion</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

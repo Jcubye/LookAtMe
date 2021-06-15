@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CapaDTO;
+using System;
+using CapaNegocio;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +27,22 @@ namespace CapaGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Departamento auxDepartamento = new Departamento();
+                auxDepartamento.Id = 0;
+                auxDepartamento.Nombre = txtNombre.Text;
 
+                NegocioDepartamento auxNegocioDepartamento = new NegocioDepartamento();
+                auxNegocioDepartamento.agregarDepartamento(auxDepartamento);
+                MessageBox.Show("Datos guardados correctamente");
+                    
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("System" + ex.Message, "Datos  no guardados");
+            }
+            
         }
     }
 }
