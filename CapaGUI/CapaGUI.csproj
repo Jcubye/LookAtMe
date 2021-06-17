@@ -132,6 +132,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PantallaCreacionEquipos.resx">
+      <DependentUpon>PantallaCreacionEquipos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PantallaHome.resx">
       <DependentUpon>PantallaHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistroDepartamentos.resx">
       <DependentUpon>PantallaRegistroDepartamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaRegistroEquipoMedico.resx">
+      <DependentUpon>PantallaRegistroEquipoMedico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaRegistroPaciente.resx">
       <DependentUpon>PantallaRegistroPaciente.cs</DependentUpon>
@@ -203,7 +209,7 @@
       <Name>CapaDTO</Name>
     </ProjectReference>
     <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
-      <Project>{81460e93-4b96-446d-a395-f59a8f65e7d1}</Project>
+      <Project>{da3c4fac-9292-4396-b5f4-06fb151fcc1f}</Project>
       <Name>CapaNegocio</Name>
     </ProjectReference>
   </ItemGroup>

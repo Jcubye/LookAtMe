@@ -18,13 +18,14 @@ namespace CapaConexion
         private Boolean esSelect;
 
         public string NombreBaseDatos { get => nombreBaseDatos; set => nombreBaseDatos = value; }
-        public string NombreTabla { get => nombreTabla; set => nombreTabla = value; }
+        //public string NombreTabla { get => nombreTabla; set => nombreTabla = value; }
         public string CadenaConexion { get => cadenaConexion; set => cadenaConexion = value; }
         public string CadenaSQL { get => cadenaSQL; set => cadenaSQL = value; }
         public SqlConnection DbConnection { get => dbConnection; set => dbConnection = value; }
         public DataSet DbDataSet { get => dbDataSet; set => dbDataSet = value; }
         public SqlDataAdapter DbDataAdapter { get => dbDataAdapter; set => dbDataAdapter = value; }
         public bool EsSelect { get => esSelect; set => esSelect = value; }
+        public string NombreTabla { get => nombreTabla; set => nombreTabla = value; }
 
         //abrir conexion
         public void abrir()
@@ -65,11 +66,12 @@ namespace CapaConexion
                 return;
             }
 
-            if (String.IsNullOrEmpty(this.NombreTabla))
-            {
-                MessageBox.Show("Error en la nombre de tabla", "Mensaje de Sistema");
-                return;
-            }
+            //if (String.IsNullOrEmpty(this.NombreTabla))
+            //{
+            //    MessageBox.Show("Error en el nombre de tabla", "Mensaje de Sistema");
+            //    return;
+            //}
+
 
             if (String.IsNullOrEmpty(this.CadenaConexion))
             {
@@ -143,10 +145,9 @@ namespace CapaConexion
         //    connect.CadenaConexion = "Data Source=LAPTOP-G7NSK0PF;Initial Catalog=LookAtMe;Integrated Security=True";
 
         //    //Los campos id autoincrementados no necesitan ser declarados
-        //    connect.CadenaSQL = "INSERT INTO departamento (nombre) VALUES ('DPTOtest3') ";
+        //    connect.CadenaSQL = "INSERT INTO departamento (nombre) VALUES ('DPTOtest6') ";
         //    connect.EsSelect = false;
         //    connect.conectar();
-
         //    Console.WriteLine("wiwiwiwi");
         //    Console.ReadKey();
         //}//Fin Testing

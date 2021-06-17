@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{81460E93-4B96-446D-A395-F59A8F65E7D1}</ProjectGuid>
+    <ProjectGuid>{DA3C4FAC-9292-4396-B5F4-06FB151FCC1F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CapaNegocio</RootNamespace>
@@ -42,11 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NegocioDepartamento.cs" />
-    <Compile Include="NegocioPaciente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaConexion\CapaConexion.csproj">
