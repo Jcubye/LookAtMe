@@ -22,5 +22,17 @@ namespace CapaGUI
             this.Dispose();
             System.GC.Collect();
         }
+
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            PantallaListadoTutores pListadoTutor = new PantallaListadoTutores();
+            pListadoTutor.ShowDialog();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            System.GC.Collect();
+        }
     }
 }

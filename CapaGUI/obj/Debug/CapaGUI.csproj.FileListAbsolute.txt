@@ -49,3 +49,9 @@ C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\C
 C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.pdb
 C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaCreacionEquipos.resources
 C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaRegistroEquipoMedico.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaListadoPaciente.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaListadoPersonal.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaListadoTutores.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaListadoCargos.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaListadoDepartamento.resources
+C:\Users\Jcubye\Desktop\Integración de Plataformas\LookAtMe\CapaGUI\obj\Debug\CapaGUI.PantallaListadoEquipos.resources

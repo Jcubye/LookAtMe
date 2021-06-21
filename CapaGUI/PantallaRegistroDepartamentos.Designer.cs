@@ -45,6 +45,16 @@ namespace CapaGUI
             btnActualizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // btnActualizar
+            // 
+            btnActualizar.Location = new System.Drawing.Point(257, 265);
+            btnActualizar.Margin = new System.Windows.Forms.Padding(4);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new System.Drawing.Size(100, 28);
+            btnActualizar.TabIndex = 67;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -136,16 +146,7 @@ namespace CapaGUI
             this.btnListar.TabIndex = 68;
             this.btnListar.Text = "Listar";
             this.btnListar.UseVisualStyleBackColor = true;
-            // 
-            // btnActualizar
-            // 
-            btnActualizar.Location = new System.Drawing.Point(257, 265);
-            btnActualizar.Margin = new System.Windows.Forms.Padding(4);
-            btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new System.Drawing.Size(100, 28);
-            btnActualizar.TabIndex = 67;
-            btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // button2
             // 
@@ -156,6 +157,7 @@ namespace CapaGUI
             this.button2.TabIndex = 66;
             this.button2.Text = "Canelar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnRegistrar
             // 

@@ -67,10 +67,20 @@ namespace CapaGUI
             btnActualizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // btnActualizar
+            // 
+            btnActualizar.Location = new System.Drawing.Point(432, 614);
+            btnActualizar.Margin = new System.Windows.Forms.Padding(4);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new System.Drawing.Size(100, 28);
+            btnActualizar.TabIndex = 57;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            // 
             // dtFechaNacimiento
             // 
             this.dtFechaNacimiento.Location = new System.Drawing.Point(516, 220);
-            this.dtFechaNacimiento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtFechaNacimiento.Margin = new System.Windows.Forms.Padding(4);
             this.dtFechaNacimiento.Name = "dtFechaNacimiento";
             this.dtFechaNacimiento.Size = new System.Drawing.Size(270, 22);
             this.dtFechaNacimiento.TabIndex = 48;
@@ -88,7 +98,7 @@ namespace CapaGUI
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(813, 614);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(100, 28);
             this.btnCancelar.TabIndex = 45;
@@ -99,7 +109,7 @@ namespace CapaGUI
             // btnRegistrar
             // 
             this.btnRegistrar.Location = new System.Drawing.Point(306, 614);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(100, 28);
             this.btnRegistrar.TabIndex = 44;
@@ -109,7 +119,7 @@ namespace CapaGUI
             // txtApellido
             // 
             this.txtApellido.Location = new System.Drawing.Point(516, 190);
-            this.txtApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(4);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(132, 22);
             this.txtApellido.TabIndex = 43;
@@ -127,7 +137,7 @@ namespace CapaGUI
             // txtCorreo
             // 
             this.txtCorreo.Location = new System.Drawing.Point(516, 352);
-            this.txtCorreo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(4);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(132, 22);
             this.txtCorreo.TabIndex = 41;
@@ -145,7 +155,7 @@ namespace CapaGUI
             // txtComuna
             // 
             this.txtComuna.Location = new System.Drawing.Point(516, 320);
-            this.txtComuna.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtComuna.Margin = new System.Windows.Forms.Padding(4);
             this.txtComuna.Name = "txtComuna";
             this.txtComuna.Size = new System.Drawing.Size(132, 22);
             this.txtComuna.TabIndex = 39;
@@ -173,7 +183,7 @@ namespace CapaGUI
             // txtDireccion
             // 
             this.txtDireccion.Location = new System.Drawing.Point(516, 288);
-            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(270, 22);
             this.txtDireccion.TabIndex = 36;
@@ -201,7 +211,7 @@ namespace CapaGUI
             // txtClave
             // 
             this.txtClave.Location = new System.Drawing.Point(516, 161);
-            this.txtClave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtClave.Margin = new System.Windows.Forms.Padding(4);
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(132, 22);
             this.txtClave.TabIndex = 30;
@@ -219,7 +229,7 @@ namespace CapaGUI
             // txtRut
             // 
             this.txtRut.Location = new System.Drawing.Point(516, 129);
-            this.txtRut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRut.Margin = new System.Windows.Forms.Padding(4);
             this.txtRut.Name = "txtRut";
             this.txtRut.Size = new System.Drawing.Size(132, 22);
             this.txtRut.TabIndex = 28;
@@ -252,7 +262,7 @@ namespace CapaGUI
             "Masculino",
             "Femenino"});
             this.txtGenero.Location = new System.Drawing.Point(516, 254);
-            this.txtGenero.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGenero.Margin = new System.Windows.Forms.Padding(4);
             this.txtGenero.Name = "txtGenero";
             this.txtGenero.Size = new System.Drawing.Size(160, 24);
             this.txtGenero.TabIndex = 49;
@@ -270,7 +280,7 @@ namespace CapaGUI
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(516, 384);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 51;
@@ -278,7 +288,7 @@ namespace CapaGUI
             // txtAntecedentes
             // 
             this.txtAntecedentes.Location = new System.Drawing.Point(516, 417);
-            this.txtAntecedentes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAntecedentes.Margin = new System.Windows.Forms.Padding(4);
             this.txtAntecedentes.Multiline = true;
             this.txtAntecedentes.Name = "txtAntecedentes";
             this.txtAntecedentes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -288,7 +298,7 @@ namespace CapaGUI
             // txtTutor
             // 
             this.txtTutor.Location = new System.Drawing.Point(516, 523);
-            this.txtTutor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTutor.Margin = new System.Windows.Forms.Padding(4);
             this.txtTutor.Name = "txtTutor";
             this.txtTutor.Size = new System.Drawing.Size(132, 22);
             this.txtTutor.TabIndex = 54;
@@ -306,7 +316,7 @@ namespace CapaGUI
             // txtContactoTutor
             // 
             this.txtContactoTutor.Location = new System.Drawing.Point(516, 555);
-            this.txtContactoTutor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContactoTutor.Margin = new System.Windows.Forms.Padding(4);
             this.txtContactoTutor.Name = "txtContactoTutor";
             this.txtContactoTutor.Size = new System.Drawing.Size(132, 22);
             this.txtContactoTutor.TabIndex = 56;
@@ -321,16 +331,6 @@ namespace CapaGUI
             this.label13.TabIndex = 55;
             this.label13.Text = "Contacto Tutor:";
             // 
-            // btnActualizar
-            // 
-            btnActualizar.Location = new System.Drawing.Point(432, 614);
-            btnActualizar.Margin = new System.Windows.Forms.Padding(4);
-            btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new System.Drawing.Size(100, 28);
-            btnActualizar.TabIndex = 57;
-            btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = true;
-            // 
             // btnListar
             // 
             this.btnListar.Location = new System.Drawing.Point(686, 614);
@@ -340,6 +340,7 @@ namespace CapaGUI
             this.btnListar.TabIndex = 58;
             this.btnListar.Text = "Listar";
             this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // btnPrimero
             // 
@@ -438,7 +439,7 @@ namespace CapaGUI
             this.Controls.Add(this.txtRut);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PantallaRegistroPaciente";
             this.Text = "Registro de Paciente";
             this.ResumeLayout(false);

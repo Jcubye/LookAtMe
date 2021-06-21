@@ -37,5 +37,17 @@ namespace CapaGUI
         {
 
         }
+
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            PantallaListadoPersonal pListadoPersonal = new PantallaListadoPersonal();
+            pListadoPersonal.ShowDialog();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            System.GC.Collect();
+        }
     }
 }

@@ -46,6 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PantallaListadoCargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaListadoCargos.Designer.cs">
+      <DependentUpon>PantallaListadoCargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaListadoDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaListadoDepartamento.Designer.cs">
+      <DependentUpon>PantallaListadoDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaListadoEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaListadoEquipos.Designer.cs">
+      <DependentUpon>PantallaListadoEquipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaListadoPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaListadoPaciente.Designer.cs">
+      <DependentUpon>PantallaListadoPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaListadoPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaListadoPersonal.Designer.cs">
+      <DependentUpon>PantallaListadoPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaListadoTutores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaListadoTutores.Designer.cs">
+      <DependentUpon>PantallaListadoTutores.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaLoginPersonal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +182,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaHomeTutor.resx">
       <DependentUpon>PantallaHomeTutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaListadoCargos.resx">
+      <DependentUpon>PantallaListadoCargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaListadoDepartamento.resx">
+      <DependentUpon>PantallaListadoDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaListadoEquipos.resx">
+      <DependentUpon>PantallaListadoEquipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaListadoPaciente.resx">
+      <DependentUpon>PantallaListadoPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaListadoPersonal.resx">
+      <DependentUpon>PantallaListadoPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaListadoTutores.resx">
+      <DependentUpon>PantallaListadoTutores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaLoginPersonal.resx">
       <DependentUpon>PantallaLoginPersonal.cs</DependentUpon>

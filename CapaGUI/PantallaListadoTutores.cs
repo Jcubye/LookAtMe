@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace CapaGUI
 {
-    public partial class PantallaRegistroEquipoMedico : Form
+    public partial class PantallaListadoTutores : Form
     {
-        public PantallaRegistroEquipoMedico()
+        public PantallaListadoTutores()
         {
             InitializeComponent();
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Dispose();
             System.GC.Collect();

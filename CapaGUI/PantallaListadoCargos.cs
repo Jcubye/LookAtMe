@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace CapaGUI
 {
-    public partial class PantallaRegistroEquipoMedico : Form
+    public partial class PantallaListadoCargos : Form
     {
-        public PantallaRegistroEquipoMedico()
+        public PantallaListadoCargos()
         {
             InitializeComponent();
-        }
-
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-            System.GC.Collect();
         }
     }
 }

@@ -28,5 +28,16 @@ namespace CapaGUI
             NegocioDepartamento auxNegocioDepartamento = new NegocioDepartamento();
             auxNegocioDepartamento.insertarDepartamento(auxDepartamento);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            System.GC.Collect();
+        }
+
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
