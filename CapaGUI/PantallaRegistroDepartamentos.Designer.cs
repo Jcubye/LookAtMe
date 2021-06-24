@@ -168,6 +168,7 @@ namespace CapaGUI
             this.btnRegistrar.TabIndex = 65;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click_1);
             // 
             // PantallaRegistroDepartamentos
             // 

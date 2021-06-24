@@ -19,6 +19,11 @@ namespace CapaGUI
             InitializeComponent();
         }
 
+        public void limpiar()
+        {
+            this.txtNombre.Text = "";
+        }
+
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
             Departamento auxDepartamento = new Departamento();
@@ -27,6 +32,7 @@ namespace CapaGUI
 
             NegocioDepartamento auxNegocioDepartamento = new NegocioDepartamento();
             auxNegocioDepartamento.insertarDepartamento(auxDepartamento);
+            limpiar();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -38,6 +44,24 @@ namespace CapaGUI
         private void btnListar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRegistrar_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                ServiceDepartamento.ServicioDepartamentoSoapClient auxServiceDepartamento = new ServiceDepartamento.ServicioDepartamentoSoapClient();
+                ServiceDepartamento.Departamento auxDepartamento = new ServiceDepartamento.Departamento();
+
+                auxDepartamento.Nombre = this.txtNombre.Text;
+
+                auxServiceDepartamento.insertarDepartamento(auxDepartamento);
+                MessageBox.Show("¡Datos Guardados!","System");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Error al ingresar departamento", "System"  + ex.Message);
+            }
         }
     }
 }
