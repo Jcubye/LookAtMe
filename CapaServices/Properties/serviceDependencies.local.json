@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "https:::localhost:44323:WebServiceDepartamento.asmx",
+      "secretStore": "LocalSecretsFile"
+    }
+  }
+}
