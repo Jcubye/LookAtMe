@@ -42,10 +42,10 @@ namespace CapaNegocio
             this.Conec.conectar();
         }//Fin actualizar
 
-        public void eliminarDepartamento(int rut)
+        public void eliminarDepartamento(int id)
         {
             this.configurarConexion();
-            this.Conec.CadenaSQL = "DELETE FROM lookatme.dbo.departamento WHERE rut= '"+ rut + "';";
+            this.Conec.CadenaSQL = "DELETE FROM lookatme.dbo.departamento WHERE id= '"+ id + "';";
             this.Conec.EsSelect = false;
             this.Conec.conectar();
         }//Fin eliminar

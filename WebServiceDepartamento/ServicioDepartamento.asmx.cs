@@ -6,7 +6,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Services;
 
-namespace WebServiceDepartamento
+namespace ServicioDepartamento
+
 {
     /// <summary>
     /// Summary description for ServicioDepartamento
@@ -20,7 +21,7 @@ namespace WebServiceDepartamento
     {
 
         [WebMethod]
-        public void insertarDepartamentoServiceService(Departamento departamento)
+        public void insertarDepartamentoService(Departamento departamento)
         {
             NegocioDepartamento auxNegocioDepartamento = new NegocioDepartamento();
             auxNegocioDepartamento.insertarDepartamento(departamento);
@@ -34,10 +35,10 @@ namespace WebServiceDepartamento
         }
 
         [WebMethod]
-        public void eliminarDepartamentoService(Departamento departamento)
+        public void eliminarDepartamentoService(int id)
         {
             NegocioDepartamento auxNegocioDepartamento = new NegocioDepartamento();
-            auxNegocioDepartamento.actualizarDepartamento(departamento);
+            auxNegocioDepartamento.eliminarDepartamento(id);
         }
     }
 }

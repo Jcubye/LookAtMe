@@ -1,5 +1,6 @@
 ﻿using CapaDTO;
 using CapaNegocio;
+using ServicioDepartamento;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -50,8 +51,8 @@ namespace CapaGUI
         {
             try
             {
-                ServiceDepartamento.ServicioDepartamentoSoapClient auxServiceDepartamento = new ServiceDepartamento.ServicioDepartamentoSoapClient();
-                ServiceDepartamento.Departamento auxDepartamento = new ServiceDepartamento.Departamento();
+                ServicioDepartamento.ServicioDepartamento auxServiceDepartamento = new ServicioDepartamento.ServicioDepartamento();
+                ServicioDepartamento. auxDepartamento = new ServiceDepartamento.Departamento();
 
                 auxDepartamento.Nombre = this.txtNombre.Text;
 
@@ -62,6 +63,16 @@ namespace CapaGUI
             {
                 MessageBox.Show("Error al ingresar departamento", "System"  + ex.Message);
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

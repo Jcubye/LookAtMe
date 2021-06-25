@@ -58,7 +58,7 @@ namespace CapaGUI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(299, 153);
+            this.label1.Location = new System.Drawing.Point(299, 174);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 17);
             this.label1.TabIndex = 0;
@@ -75,7 +75,7 @@ namespace CapaGUI
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(400, 148);
+            this.txtNombre.Location = new System.Drawing.Point(400, 169);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 22);
             this.txtNombre.TabIndex = 2;
